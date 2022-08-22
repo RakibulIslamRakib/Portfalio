@@ -1,0 +1,32 @@
+﻿.aboutDiv {
+    height: 400px;
+    width: 100%;
+    padding: 5px;
+    margin: 0px;
+    display: flex;
+    background-color: rgb(245, 249, 251);
+}
+
+.leftDiv {
+    height: 100%;
+    width: 60%;
+   
+    box-shadow: 5px;
+    padding: 10px;
+    border-right:1px solid black;
+}
+
+.rightDiv {
+    height: 100%;
+    width: 39%;
+    box-shadow: 5px;
+}
+
+
+.imageHome {
+    border-radius: 10px;
+    height: 80%;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+}

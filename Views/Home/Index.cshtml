@@ -2,7 +2,29 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<link rel="stylesheet" href="css/index.css"/>
+
+
+<h5 class="headline">Projects:</h5>
+<div class="indexDiv">
+    
+    <div class="leftDiv cards">
+        @{
+            for(int i=1;i<=12;i++){
+                <partial name="_cardSnipet"  />
+            }
+        }
+         
+    </div>
+
+    <div class="rightDiv">
+      <img class="imageHome" src="img/rk.jpg"/>
+        <h4>HI There! I am Rakibul Islam</h4>
+        <p>
+            Software Engineer Trainee at Brain Station 23.
+            I am Passionate about Web development, Machine Learning,
+            Data Science and Competitive Programming. I love To
+            Explore New Places, Playing Cricket Football Badminton Etc.
+        </p>
+  </div>
 </div>
