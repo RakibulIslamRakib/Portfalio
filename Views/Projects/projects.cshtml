@@ -1,0 +1,20 @@
+﻿
+<link rel="stylesheet" href="~/css/projects.css"/>
+
+<div class="cards">
+@{
+    for(int i=1;i<=12;i++){
+  
+        <div class="card">
+            <div class="projectTitle">
+                <h4>demo project @(i) . </h4> 
+            </div>
+
+            <div>
+                <small>Framework: Django</small>
+                    <small><a href="/projects/projects/projectDetails">details...</a></small>
+            </div>
+        </div>
+    }   
+}
+</div>

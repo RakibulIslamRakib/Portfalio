@@ -30,3 +30,48 @@
     margin: 5px;
     padding: 5px;
 }
+
+.codeforcesDiv {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    display: flex;
+    background-image: url('codeforces_logo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.leetcodeDiv {
+    height: 80px;
+    width: 100px;
+    margin: 20px;
+    display: flex;
+    background-image: url('leetcode_logo.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.githubDiv {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    display: flex;
+    background-image: url('github_logo.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.profileDetails {
+    display: flex;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 33%;
+    background-color: ghostwhite;
+    margin: 10px;
+}
