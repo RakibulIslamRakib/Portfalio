@@ -1,0 +1,24 @@
+﻿@model Portfalio.Models.Project
+
+<link rel="stylesheet" href="~/css/projects.css"/>
+<link rel="stylesheet" href="~/css/contact.css" />
+
+@{
+<div class="container">
+    <h3 style="text-align:center">Add new Project</h3>
+    <form asp-controller = "Projects" asp-action="Addproject">
+        <label for="fname">Project Name</label>
+        <input type="text" id="fname" asp-for="Name" placeholder="Your name..">
+
+        <label for="lname">Language</label>
+        <input type="text" id="lname" asp-for="Language" placeholder="Your last name..">
+
+        
+        <label for="subject">Details</label>
+        <textarea id="subject" asp-for="Details" placeholder="Write something.." style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+    </form>
+</div>
+             
+}
